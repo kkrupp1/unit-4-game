@@ -1,0 +1,49 @@
+body {            
+    background-image: url("https://drive.google.com/uc?id=1AOS_AyWET0BW23GNEP6BPRjg8LGGRtkl");
+    background-color: black;
+    background-repeat: no-repeat;
+ }
+ /*https://drive.google.com/file/d/1AOS_AyWET0BW23GNEP6BPRjg8LGGRtkl/view?usp=sharing*/
+
+
+.cardCustom {
+    border: 3px solid white;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+    height: 500px;
+    width: 60%;
+    
+}
+
+
+.underScore {
+    border: 3px solid white;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+    height: 150px;
+    width: 80%;
+}
+
+
+
+.rightGuess {
+    border: 3px solid white;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+    height: 150px;
+    width: 80%;
+}
+
+
+
+.wrongGuess {
+    border: 3px solid white;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+    height: 150px;
+    width: 80%;
+}
