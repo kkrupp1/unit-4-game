@@ -1,49 +1,89 @@
+
+
 body {            
     background-image: url("https://drive.google.com/uc?id=1AOS_AyWET0BW23GNEP6BPRjg8LGGRtkl");
     background-color: black;
     background-repeat: no-repeat;
+    background-position: bottom right;
  }
- /*https://drive.google.com/file/d/1AOS_AyWET0BW23GNEP6BPRjg8LGGRtkl/view?usp=sharing*/
 
 
-.cardCustom {
+
+
+ .infoCustom {
     border: 3px solid white;
     font-size: 20px;
     text-align: center;
     margin: 15px auto;
-    height: 500px;
+    height: 600px;
+    width: 80%;
+    
+}
+#title {
+    border: 3px solid lightblue;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+    height: 50px;
     width: 60%;
     
 }
-
-
-.underScore {
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+}
+#info {
     border: 3px solid white;
     font-size: 20px;
     text-align: center;
     margin: 15px auto;
     height: 150px;
+    width: 60%;
+    
+}
+p {
+    display: block;
+    margin-bottom: 20px;
+}
+#randomNum {
+    border: 3px solid white;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+    height: 100px;
     width: 80%;
+    
+    }
+#wins {
+    width: 48%;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+#losses {
+    width: 48%;
+    text-align: right;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+#targetScore {
+    text-align: center;
+    font-size: 48px;
+    color: black;
 }
 
-
-
-.rightGuess {
-    border: 3px solid white;
-    font-size: 20px;
-    text-align: center;
-    margin: 15px auto;
-    height: 150px;
-    width: 80%;
+.gem {
+    display: inline-block;
+    margin-right: 20px;
 }
-
-
-
-.wrongGuess {
-    border: 3px solid white;
-    font-size: 20px;
-    text-align: center;
-    margin: 15px auto;
-    height: 150px;
-    width: 80%;
+#gems {
+    width: 960px;
+    margin: 30px auto;
+    padding: 20px;
+}
+#score {
+    display: inline-block;
+    font-size: 48px;
+    color: black;
+    padding-top: 20px;
 }
