@@ -24,7 +24,7 @@ function reset() {
     saphirePoints = Math.floor(Math.random() * 12) + 1
 }
 
-// adds the points
+// adds the points and manipulates the hmtl element where the score is held
 
 function addPoints(points) {
     score += points
